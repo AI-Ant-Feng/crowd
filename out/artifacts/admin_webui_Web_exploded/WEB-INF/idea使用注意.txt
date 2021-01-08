@@ -1,0 +1,5 @@
+1，idea的使用bug：将前端静态资源复制到web目录下后，访问页面可能会出现css样式丢失。
+解决方法：File-->Invalidate Caches。
+2，配置tomcat需要先配置Project Structure，再配置tomcat。
+顺序颠倒，有可能导致tomcat找不到war包。
+原理很简单，那就是，需要将项目打成war包部署到tomcat。
